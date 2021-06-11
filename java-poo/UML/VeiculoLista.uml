@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.model.Veiculo</OriginalElement>
+  <nodes>
+    <node x="71.79605654761912" y="964.5">java.util.Observer</node>
+    <node x="265.7960565476191" y="1461.0">br.com.ufmg.coltec.locamais.ui.controller.VeiculosController</node>
+    <node x="527.7387378246754" y="366.0">br.com.ufmg.coltec.locamais.model.Veiculo</node>
+    <node x="783.2960565476192" y="1141.0">br.com.ufmg.coltec.locamais.ui.view.Veiculos</node>
+    <node x="511.2960565476191" y="1185.0">br.com.ufmg.coltec.locamais.filemanager.VeiculosFileManager</node>
+    <node x="19.0" y="485.0">java.util.Observable</node>
+    <node x="219.29605654761912" y="1063.0">br.com.ufmg.coltec.locamais.ui.template.controller.VeiculoTemplateController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.VeiculosController" target="br.com.ufmg.coltec.locamais.filemanager.VeiculosFileManager">
+      <point x="28.636363636363626" y="-192.0" />
+      <point x="451.93242018398274" y="1401.0" />
+      <point x="631.2960565476192" y="1401.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="java.util.Observer" target="java.util.Observable">
+      <point x="-79.33333333333331" y="-26.0" />
+      <point x="111.4627232142858" y="831.0" />
+      <point x="132.5" y="831.0" />
+      <point x="0.0" y="148.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.template.controller.VeiculoTemplateController" target="java.util.Observer">
+      <point x="-102.0" y="-159.0" />
+      <point x="253.29605654761912" y="1043.0" />
+      <point x="271.12938988095243" y="1043.0" />
+      <point x="79.33333333333331" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.VeiculosController" target="java.util.Observable">
+      <point x="-143.18181818181813" y="-192.0" />
+      <point x="280.114238365801" y="1441.0" />
+      <point x="51.296056547619116" y="1441.0" />
+      <point x="50.296056547619116" y="821.0" />
+      <point x="67.64285714285711" y="821.0" />
+      <point x="-64.85714285714289" y="148.0" />
+    </edge>
+    <edge source="java.util.Observable" target="java.util.Observable">
+      <point x="-97.28571428571428" y="148.0" />
+      <point x="35.21428571428572" y="801.0" />
+      <point x="-1.0" y="801.0" />
+      <point x="-1.0" y="633.0" />
+      <point x="-113.5" y="-0.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.VeiculosController" target="br.com.ufmg.coltec.locamais.ui.template.controller.VeiculoTemplateController">
+      <point x="-28.636363636363626" y="-192.0" />
+      <point x="394.6596929112555" y="1401.0" />
+      <point x="287.2960565476191" y="1401.0" />
+      <point x="-68.0" y="159.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.template.controller.VeiculoTemplateController" target="java.util.Observable">
+      <point x="-34.0" y="-159.0" />
+      <point x="320.2960565476191" y="821.0" />
+      <point x="229.78571428571433" y="821.0" />
+      <point x="97.28571428571433" y="148.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.VeiculosController" target="br.com.ufmg.coltec.locamais.ui.view.Veiculos">
+      <point x="114.5454545454545" y="-192.0" />
+      <point x="537.8415110930737" y="1431.0" />
+      <point x="841.5460565476192" y="1431.0" />
+      <point x="-58.25" y="81.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.VeiculosController" target="java.util.Observer">
+      <point x="-85.90909090909088" y="-192.0" />
+      <point x="337.38696563852824" y="1421.0" />
+      <point x="137.85984848484858" y="1421.0" />
+      <point x="137.85984848484858" y="1043.0" />
+      <point x="112.4627232142858" y="1043.0" />
+      <point x="-79.33333333333331" y="26.0" />
+    </edge>
+    <edge source="java.util.Observable" target="java.util.Observer">
+      <point x="32.428571428571445" y="148.0" />
+      <point x="164.92857142857144" y="831.0" />
+      <point x="190.79605654761912" y="831.0" />
+      <point x="0.0" y="-26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.VeiculosFileManager" target="br.com.ufmg.coltec.locamais.model.Veiculo">
+      <point x="0.0" y="-37.0" />
+      <point x="631.2960565476192" y="1043.0" />
+      <point x="646.7387378246754" y="1043.0" />
+      <point x="0.0" y="323.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.template.controller.VeiculoTemplateController" target="br.com.ufmg.coltec.locamais.model.Veiculo">
+      <point x="34.0" y="-159.0" />
+      <point x="389.2960565476191" y="1033.0" />
+      <point x="551.5387378246753" y="1033.0" />
+      <point x="-95.20000000000005" y="323.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.VeiculosController" target="br.com.ufmg.coltec.locamais.model.Veiculo">
+      <point x="57.27272727272725" y="-192.0" />
+      <point x="480.56878382034637" y="1411.0" />
+      <point x="761.7960565476192" y="1411.0" />
+      <point x="761.7960565476192" y="1043.0" />
+      <point x="694.3387378246754" y="1043.0" />
+      <point x="47.60000000000002" y="323.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="183.5" y="1090.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

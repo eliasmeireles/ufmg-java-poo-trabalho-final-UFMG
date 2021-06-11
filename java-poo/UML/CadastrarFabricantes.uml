@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.view.CadastrarFabricantes</OriginalElement>
+  <nodes>
+    <node x="630.0" y="338.0">java.util.Observer</node>
+    <node x="0.0" y="316.0">br.com.ufmg.coltec.locamais.ui.view.CadastrarFabricantes</node>
+    <node x="274.0" y="316.0">br.com.ufmg.coltec.locamais.filemanager.FabricanteFileManager</node>
+    <node x="427.3730158730159" y="472.0">br.com.ufmg.coltec.locamais.ui.controller.CadastrarFabricantesController</node>
+    <node x="473.265873015873" y="0.0">java.lang.Comparable</node>
+    <node x="449.265873015873" y="102.0">br.com.ufmg.coltec.locamais.model.Fabricante</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.CadastrarFabricantesController" target="br.com.ufmg.coltec.locamais.filemanager.FabricanteFileManager">
+      <point x="-47.42857142857133" y="-82.0" />
+      <point x="545.9444444444446" y="432.0" />
+      <point x="430.5" y="432.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.CadastrarFabricantesController" target="br.com.ufmg.coltec.locamais.model.Fabricante">
+      <point x="94.8571428571429" y="-82.0" />
+      <point x="688.2301587301588" y="442.0" />
+      <point x="619.5" y="442.0" />
+      <point x="619.5" y="296.0" />
+      <point x="631.265873015873" y="296.0" />
+      <point x="78.0" y="82.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.model.Fabricante" target="java.lang.Comparable">
+      <point x="0.0" y="-82.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.CadastrarFabricantesController" target="java.util.Observer">
+      <point x="142.28571428571422" y="-82.0" />
+      <point x="735.6587301587301" y="452.0" />
+      <point x="749.0" y="452.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.CadastrarFabricantesController" target="br.com.ufmg.coltec.locamais.ui.view.CadastrarFabricantes">
+      <point x="-142.28571428571428" y="-82.0" />
+      <point x="451.0873015873016" y="452.0" />
+      <point x="63.5" y="452.0" />
+      <point x="-63.5" y="48.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.FabricanteFileManager" target="br.com.ufmg.coltec.locamais.model.Fabricante">
+      <point x="0.0" y="-48.0" />
+      <point x="430.5" y="296.0" />
+      <point x="475.265873015873" y="296.0" />
+      <point x="-78.0" y="82.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="163.0" y="211.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

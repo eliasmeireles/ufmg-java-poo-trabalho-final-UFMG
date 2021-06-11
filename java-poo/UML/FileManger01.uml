@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.filemanager.ClienteFileManager</OriginalElement>
+  <nodes>
+    <node x="87.0" y="472.0">br.com.ufmg.coltec.locamais.filemanager.LocacaoFileManager</node>
+    <node x="735.0" y="143.0">br.com.ufmg.coltec.locamais.filemanager.FileReaderWriter</node>
+    <node x="0.0" y="0.0">br.com.ufmg.coltec.locamais.filemanager.SystemFolderAndFilesURL</node>
+    <node x="622.0" y="472.0">br.com.ufmg.coltec.locamais.filemanager.HistoricoLocacaoFileManager</node>
+    <node x="314.0" y="99.0">br.com.ufmg.coltec.locamais.json.JsonAsistente</node>
+    <node x="365.0" y="472.0">br.com.ufmg.coltec.locamais.filemanager.ClienteFileManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.LocacaoFileManager" target="br.com.ufmg.coltec.locamais.filemanager.SystemFolderAndFilesURL">
+      <point x="-86.0" y="-37.0" />
+      <point x="130.0" y="452.0" />
+      <point x="49.0" y="452.0" />
+      <point x="-98.0" y="191.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.HistoricoLocacaoFileManager" target="br.com.ufmg.coltec.locamais.filemanager.SystemFolderAndFilesURL">
+      <point x="-127.33333333333326" y="-37.0" />
+      <point x="685.6666666666667" y="412.0" />
+      <point x="245.0" y="412.0" />
+      <point x="98.0" y="191.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.ClienteFileManager" target="br.com.ufmg.coltec.locamais.filemanager.FileReaderWriter">
+      <point x="79.0" y="-37.0" />
+      <point x="562.5" y="452.0" />
+      <point x="841.5" y="452.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.HistoricoLocacaoFileManager" target="br.com.ufmg.coltec.locamais.json.JsonAsistente">
+      <point x="0.0" y="-37.0" />
+      <point x="813.0" y="402.0" />
+      <point x="648.1666666666666" y="402.0" />
+      <point x="133.66666666666663" y="92.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.ClienteFileManager" target="br.com.ufmg.coltec.locamais.json.JsonAsistente">
+      <point x="0.0" y="-37.0" />
+      <point x="483.5" y="432.0" />
+      <point x="514.5" y="432.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.LocacaoFileManager" target="br.com.ufmg.coltec.locamais.json.JsonAsistente">
+      <point x="0.0" y="-37.0" />
+      <point x="216.0" y="432.0" />
+      <point x="380.83333333333337" y="432.0" />
+      <point x="-133.66666666666663" y="92.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.LocacaoFileManager" target="br.com.ufmg.coltec.locamais.filemanager.FileReaderWriter">
+      <point x="86.0" y="-37.0" />
+      <point x="302.0" y="442.0" />
+      <point x="770.5" y="442.0" />
+      <point x="-71.0" y="48.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.HistoricoLocacaoFileManager" target="br.com.ufmg.coltec.locamais.filemanager.FileReaderWriter">
+      <point x="127.33333333333337" y="-37.0" />
+      <point x="940.3333333333334" y="452.0" />
+      <point x="912.5" y="452.0" />
+      <point x="71.0" y="48.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.ClienteFileManager" target="br.com.ufmg.coltec.locamais.filemanager.SystemFolderAndFilesURL">
+      <point x="-79.0" y="-37.0" />
+      <point x="404.5" y="422.0" />
+      <point x="147.0" y="422.0" />
+      <point x="0.0" y="191.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="690.5" y="257.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

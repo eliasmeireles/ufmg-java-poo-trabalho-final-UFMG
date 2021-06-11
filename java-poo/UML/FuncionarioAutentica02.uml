@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.controller.UIMainController</OriginalElement>
+  <nodes>
+    <node x="0.0" y="929.0">br.com.ufmg.coltec.locamais.ui.constant.Constant</node>
+    <node x="385.0" y="122.0">java.util.Observer</node>
+    <node x="317.00000000000006" y="346.0">br.com.ufmg.coltec.locamais.ui.controller.CadastroFuncionarioController</node>
+    <node x="711.0" y="423.0">br.com.ufmg.coltec.locamais.ui.controller.VeiculosController</node>
+    <node x="0.0" y="423.0">br.com.ufmg.coltec.locamais.ui.controller.AutenticacaoController</node>
+    <node x="833.75" y="0.0">java.util.Observable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.CadastroFuncionarioController" target="java.util.Observer">
+      <point x="-5.6843418860808015E-14" y="-269.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.VeiculosController" target="java.util.Observable">
+      <point x="78.75" y="-192.0" />
+      <point x="0.0" y="148.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.VeiculosController" target="java.util.Observer">
+      <point x="-78.75" y="-192.0" />
+      <point x="789.75" y="321.0" />
+      <point x="583.3333333333333" y="321.0" />
+      <point x="79.33333333333326" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.AutenticacaoController" target="java.util.Observer">
+      <point x="0.0" y="-192.0" />
+      <point x="148.5" y="321.0" />
+      <point x="424.6666666666667" y="321.0" />
+      <point x="-79.33333333333331" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1040603248259862" x="799.0" y="374.0" />
+  <SelectedNodes>
+    <node>br.com.ufmg.coltec.locamais.ui.controller.VeiculosController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

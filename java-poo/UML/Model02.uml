@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.model.Autentica</OriginalElement>
+  <nodes>
+    <node x="72.35416666666663" y="1013.0">br.com.ufmg.coltec.locamais.model.Locacao</node>
+    <node x="233.99999999999997" y="316.0">br.com.ufmg.coltec.locamais.model.Veiculo</node>
+    <node x="95.85416666666663" y="8.0">java.lang.Comparable</node>
+    <node x="100.85416666666663" y="1556.0">br.com.ufmg.coltec.locamais.model.HistoricoLocacao</node>
+    <node x="211.87499999999994" y="102.0">br.com.ufmg.coltec.locamais.model.Fabricante</node>
+    <node x="0.0" y="382.0">br.com.ufmg.coltec.locamais.model.Cliente</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.model.Veiculo" target="java.lang.Comparable">
+      <point x="79.33333333333331" y="-323.5" />
+      <point x="432.33333333333326" y="291.0" />
+      <point x="430.37499999999994" y="291.0" />
+      <point x="430.37499999999994" y="77.0" />
+      <point x="371.18749999999994" y="77.0" />
+      <point x="53.333333333333314" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.model.Veiculo" target="br.com.ufmg.coltec.locamais.model.Fabricante">
+      <point x="-79.33333333333331" y="-323.5" />
+      <point x="273.66666666666663" y="291.0" />
+      <point x="263.87499999999994" y="291.0" />
+      <point x="-52.0" y="82.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.model.Locacao" target="br.com.ufmg.coltec.locamais.model.Cliente">
+      <point x="-123.75" y="-246.5" />
+      <point x="113.60416666666663" y="988.0" />
+      <point x="53.5" y="988.0" />
+      <point x="-53.5" y="257.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.model.HistoricoLocacao" target="br.com.ufmg.coltec.locamais.model.Locacao">
+      <point x="68.25" y="-213.5" />
+      <point x="305.60416666666663" y="1531.0" />
+      <point x="319.85416666666663" y="1531.0" />
+      <point x="82.5" y="246.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.model.Fabricante" target="java.lang.Comparable">
+      <point x="0.0" y="-82.0" />
+      <point x="315.87499999999994" y="77.0" />
+      <point x="317.85416666666663" y="77.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.model.Locacao" target="br.com.ufmg.coltec.locamais.model.Veiculo">
+      <point x="123.75" y="-246.5" />
+      <point x="361.10416666666663" y="988.0" />
+      <point x="412.5" y="988.0" />
+      <point x="59.5" y="323.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.model.Cliente" target="java.lang.Comparable">
+      <point x="0.0" y="-257.5" />
+      <point x="106.99999999999997" y="77.0" />
+      <point x="264.52083333333326" y="77.0" />
+      <point x="-53.33333333333334" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="822.5" y="414.5" />
+  <SelectedNodes>
+    <node>java.lang.Comparable</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

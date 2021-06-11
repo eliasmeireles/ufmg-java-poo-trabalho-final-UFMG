@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.filemanager.ClienteFileManager</OriginalElement>
+  <nodes>
+    <node x="358.0" y="427.0">br.com.ufmg.coltec.locamais.filemanager.FileReaderWriter</node>
+    <node x="0.0" y="568.0">br.com.ufmg.coltec.locamais.filemanager.FuncionariosFileManager</node>
+    <node x="0.0" y="0.0">br.com.ufmg.coltec.locamais.filemanager.SystemFolderAndFilesURL</node>
+    <node x="0.0" y="427.0">br.com.ufmg.coltec.locamais.filemanager.FabricanteFileManager</node>
+    <node x="339.0" y="0.0">br.com.ufmg.coltec.locamais.json.JsonAsistente</node>
+    <node x="370.0" y="568.0">br.com.ufmg.coltec.locamais.filemanager.VeiculosFileManager</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="688.0" y="315.5" />
+  <SelectedNodes>
+    <node>br.com.ufmg.coltec.locamais.json.JsonAsistente</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

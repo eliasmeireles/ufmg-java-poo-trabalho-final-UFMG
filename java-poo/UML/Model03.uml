@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</OriginalElement>
+  <nodes>
+    <node x="62.5555555555556" y="121.0">java.util.Observer</node>
+    <node x="395.35416666666663" y="734.0">br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</node>
+    <node x="0.0" y="344.0">br.com.ufmg.coltec.locamais.ui.controller.LocacoesController</node>
+    <node x="479.3541666666667" y="0.0">br.com.ufmg.coltec.locamais.ui.constant.SystemRoute</node>
+    <node x="383.0" y="355.0">br.com.ufmg.coltec.locamais.ui.controller.HistoricoLocacoesController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder" target="br.com.ufmg.coltec.locamais.ui.controller.HistoricoLocacoesController">
+      <point x="5.6843418860808015E-14" y="-148.0" />
+      <point x="520.8541666666666" y="709.0" />
+      <point x="548.5" y="709.0" />
+      <point x="0.0" y="159.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.LocacoesController" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="90.75" y="-170.0" />
+      <point x="272.25" y="324.0" />
+      <point x="533.5208333333333" y="324.0" />
+      <point x="-108.33333333333337" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="83.6666666666667" y="-148.0" />
+      <point x="604.5208333333333" y="709.0" />
+      <point x="742.6458333333333" y="709.0" />
+      <point x="742.6458333333333" y="324.0" />
+      <point x="750.1875" y="324.0" />
+      <point x="108.33333333333326" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.LocacoesController" target="java.util.Observer">
+      <point x="-90.75" y="-170.0" />
+      <point x="90.75" y="324.0" />
+      <point x="122.0555555555556" y="324.0" />
+      <point x="-59.5" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.HistoricoLocacoesController" target="java.util.Observer">
+      <point x="-82.75" y="-159.0" />
+      <point x="465.75" y="314.0" />
+      <point x="241.0555555555556" y="314.0" />
+      <point x="59.5" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.HistoricoLocacoesController" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="82.75" y="-159.0" />
+      <point x="631.25" y="324.0" />
+      <point x="641.8541666666667" y="324.0" />
+      <point x="0.0" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder" target="br.com.ufmg.coltec.locamais.ui.controller.LocacoesController">
+      <point x="-83.66666666666663" y="-148.0" />
+      <point x="437.1875" y="709.0" />
+      <point x="181.5" y="709.0" />
+      <point x="0.0" y="170.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="184.0" y="615.5" />
+  <SelectedNodes>
+    <node>br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</OriginalElement>
+  <nodes>
+    <node x="272.0" y="0.0">java.util.Observer</node>
+    <node x="259.0" y="102.0">br.com.ufmg.coltec.locamais.ui.controller.ClientesController</node>
+    <node x="486.0" y="560.0">br.com.ufmg.coltec.locamais.filemanager.ClienteFileManager</node>
+    <node x="0.0" y="560.0">br.com.ufmg.coltec.locamais.ui.template.controller.ClienteFuncionarioTemplateController</node>
+    <node x="0.0" y="0.0">br.com.ufmg.coltec.locamais.model.Cliente</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClientesController" target="java.util.Observer">
+      <point x="0.0" y="-148.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="745.0" y="414.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

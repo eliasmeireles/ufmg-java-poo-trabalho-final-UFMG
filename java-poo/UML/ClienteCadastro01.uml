@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</OriginalElement>
+  <nodes>
+    <node x="1407.75" y="1052.0">java.util.Observer</node>
+    <node x="614.0" y="1359.0">br.com.ufmg.coltec.locamais.ui.controller.ClienteCadastroController</node>
+    <node x="157.625" y="0.0">br.com.ufmg.coltec.locamais.ui.inputvalidation.Regex</node>
+    <node x="514.75" y="887.0">br.com.ufmg.coltec.locamais.ui.view.ClienteCadastro</node>
+    <node x="83.75" y="498.5">br.com.ufmg.coltec.locamais.ui.inputvalidation.TextFieldValidation</node>
+    <node x="1062.75" y="931.0">br.com.ufmg.coltec.locamais.ui.constant.SystemRoute</node>
+    <node x="782.75" y="1041.0">br.com.ufmg.coltec.locamais.filemanager.ClienteFileManager</node>
+    <node x="0.0" y="963.0">br.com.ufmg.coltec.locamais.ui.template.controller.EnderecoTemplateController</node>
+    <node x="879.0729166666667" y="322.0">br.com.ufmg.coltec.locamais.model.Cliente</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClienteCadastroController" target="br.com.ufmg.coltec.locamais.filemanager.ClienteFileManager">
+      <point x="15.583333333333258" y="-225.0" />
+      <point x="816.5833333333333" y="1289.0" />
+      <point x="901.25" y="1289.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClienteCadastroController" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="140.25" y="-225.0" />
+      <point x="941.25" y="1329.0" />
+      <point x="1225.25" y="1329.0" />
+      <point x="0.0" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.inputvalidation.TextFieldValidation" target="br.com.ufmg.coltec.locamais.ui.inputvalidation.Regex">
+      <point x="0.0" y="-81.0" />
+      <point x="288.75" y="297.0" />
+      <point x="285.125" y="297.0" />
+      <point x="0.0" y="136.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClienteCadastroController" target="br.com.ufmg.coltec.locamais.ui.template.controller.EnderecoTemplateController">
+      <point x="-140.2500000000001" y="-225.0" />
+      <point x="660.75" y="1329.0" />
+      <point x="219.75" y="1329.0" />
+      <point x="73.25" y="115.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.ClienteFileManager" target="br.com.ufmg.coltec.locamais.model.Cliente">
+      <point x="0.0" y="-37.0" />
+      <point x="901.25" y="867.0" />
+      <point x="905.8229166666667" y="867.0" />
+      <point x="-80.25" y="257.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClienteCadastroController" target="br.com.ufmg.coltec.locamais.ui.inputvalidation.Regex">
+      <point x="-77.91666666666674" y="-225.0" />
+      <point x="723.0833333333333" y="1309.0" />
+      <point x="504.25" y="1309.0" />
+      <point x="504.25" y="297.0" />
+      <point x="370.125" y="297.0" />
+      <point x="85.0" y="136.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClienteCadastroController" target="br.com.ufmg.coltec.locamais.ui.view.ClienteCadastro">
+      <point x="-15.583333333333371" y="-225.0" />
+      <point x="785.4166666666667" y="1289.0" />
+      <point x="700.75" y="1289.0" />
+      <point x="62.0" y="191.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.template.controller.EnderecoTemplateController" target="br.com.ufmg.coltec.locamais.ui.inputvalidation.Regex">
+      <point x="-73.25" y="-115.0" />
+      <point x="73.25" y="297.0" />
+      <point x="200.125" y="297.0" />
+      <point x="-85.0" y="136.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.template.controller.EnderecoTemplateController" target="br.com.ufmg.coltec.locamais.ui.inputvalidation.TextFieldValidation">
+      <point x="73.25" y="-115.0" />
+      <point x="219.75" y="867.0" />
+      <point x="186.25" y="867.0" />
+      <point x="-102.5" y="81.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClienteCadastroController" target="br.com.ufmg.coltec.locamais.ui.inputvalidation.TextFieldValidation">
+      <point x="-109.08333333333348" y="-225.0" />
+      <point x="691.9166666666665" y="1319.0" />
+      <point x="391.25" y="1319.0" />
+      <point x="102.5" y="81.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClienteCadastroController" target="br.com.ufmg.coltec.locamais.model.Cliente">
+      <point x="77.91666666666663" y="-225.0" />
+      <point x="878.9166666666667" y="1309.0" />
+      <point x="1041.25" y="1309.0" />
+      <point x="1041.25" y="857.0" />
+      <point x="1012.8229166666667" y="857.0" />
+      <point x="26.75" y="257.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClienteCadastroController" target="java.util.Observer">
+      <point x="171.41666666666674" y="-225.0" />
+      <point x="972.4166666666667" y="1339.0" />
+      <point x="1526.75" y="1339.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9804943219772876" x="912.9633505842218" y="890.9656417783767" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

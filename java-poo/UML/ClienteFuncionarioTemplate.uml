@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.template.ClienteFuncionarioTemplate</OriginalElement>
+  <nodes>
+    <node x="468.0" y="257.0">br.com.ufmg.coltec.locamais.ui.template.ClienteFuncionarioTemplate</node>
+    <node x="261.0" y="0.0">java.lang.Comparable</node>
+    <node x="0.0" y="102.0">br.com.ufmg.coltec.locamais.model.Funcionario</node>
+    <node x="233.99999999999997" y="179.5">br.com.ufmg.coltec.locamais.model.Cliente</node>
+    <node x="120.49999999999997" y="822.0">br.com.ufmg.coltec.locamais.ui.template.controller.ClienteFuncionarioTemplateController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.template.controller.ClienteFuncionarioTemplateController" target="br.com.ufmg.coltec.locamais.model.Cliente">
+      <point x="36.75" y="-115.0" />
+      <point x="377.75" y="802.0" />
+      <point x="394.5" y="802.0" />
+      <point x="53.5" y="257.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.template.controller.ClienteFuncionarioTemplateController" target="br.com.ufmg.coltec.locamais.model.Funcionario">
+      <point x="-110.25" y="-115.0" />
+      <point x="230.74999999999997" y="792.0" />
+      <point x="160.5" y="792.0" />
+      <point x="53.5" y="335.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.template.controller.ClienteFuncionarioTemplateController" target="br.com.ufmg.coltec.locamais.ui.template.ClienteFuncionarioTemplate">
+      <point x="110.25" y="-115.0" />
+      <point x="451.25" y="802.0" />
+      <point x="517.5" y="802.0" />
+      <point x="-49.5" y="180.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.model.Cliente" target="java.lang.Comparable">
+      <point x="0.0" y="-257.5" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="165.5" y="171.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

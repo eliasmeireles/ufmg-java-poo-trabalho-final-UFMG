@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</OriginalElement>
+  <nodes>
+    <node x="322.79999999999995" y="1065.0">br.com.ufmg.coltec.locamais.ui.controller.VeiculosController</node>
+    <node x="376.82142857142856" y="0.0">br.com.ufmg.coltec.locamais.model.Veiculo</node>
+    <node x="362.5" y="819.0">br.com.ufmg.coltec.locamais.filemanager.VeiculosFileManager</node>
+    <node x="70.5" y="697.0">br.com.ufmg.coltec.locamais.ui.template.controller.VeiculoTemplateController</node>
+    <node x="0.0" y="176.5">br.com.ufmg.coltec.locamais.ui.template.VeiculoTemplate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.VeiculosController" target="br.com.ufmg.coltec.locamais.filemanager.VeiculosFileManager">
+      <point x="0.0" y="-192.0" />
+      <point x="480.29999999999995" y="1045.0" />
+      <point x="482.5" y="1045.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.template.controller.VeiculoTemplateController" target="br.com.ufmg.coltec.locamais.ui.template.VeiculoTemplate">
+      <point x="-34.0" y="-159.0" />
+      <point x="57.5" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.VeiculosFileManager" target="br.com.ufmg.coltec.locamais.model.Veiculo">
+      <point x="0.0" y="-37.0" />
+      <point x="482.5" y="677.0" />
+      <point x="495.82142857142856" y="677.0" />
+      <point x="0.0" y="323.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.VeiculosController" target="br.com.ufmg.coltec.locamais.ui.template.controller.VeiculoTemplateController">
+      <point x="-63.0" y="-192.0" />
+      <point x="417.29999999999995" y="1035.0" />
+      <point x="274.5" y="1035.0" />
+      <point x="68.0" y="159.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.template.controller.VeiculoTemplateController" target="br.com.ufmg.coltec.locamais.model.Veiculo">
+      <point x="102.0" y="-159.0" />
+      <point x="308.5" y="677.0" />
+      <point x="448.22142857142853" y="677.0" />
+      <point x="-47.60000000000002" y="323.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.VeiculosController" target="br.com.ufmg.coltec.locamais.model.Veiculo">
+      <point x="63.0" y="-192.0" />
+      <point x="543.3" y="1035.0" />
+      <point x="613.0" y="1035.0" />
+      <point x="613.0" y="677.0" />
+      <point x="543.4214285714286" y="677.0" />
+      <point x="47.60000000000002" y="323.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="261.0" y="874.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

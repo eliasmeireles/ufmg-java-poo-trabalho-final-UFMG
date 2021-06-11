@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.helper.SelectorImage</OriginalElement>
+  <nodes>
+    <node x="396.0" y="122.0">java.util.Observer</node>
+    <node x="328.0" y="401.0">br.com.ufmg.coltec.locamais.ui.controller.CadastroFuncionarioController</node>
+    <node x="722.0" y="478.0">br.com.ufmg.coltec.locamais.ui.controller.VeiculosController</node>
+    <node x="1116.75" y="0.0">br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</node>
+    <node x="0.0" y="1039.0">br.com.ufmg.coltec.locamais.ui.template.controller.EnderecoTemplateController</node>
+    <node x="844.75" y="0.0">java.util.Observable</node>
+    <node x="338.0" y="1039.0">br.com.ufmg.coltec.locamais.ui.helper.SelectorImage</node>
+    <node x="-108.0" y="321.0">br.com.ufmg.coltec.locamais.ui.controller.CadastroVeiculoController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.CadastroFuncionarioController" target="java.util.Observer">
+      <point x="0.0" y="-269.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.VeiculosController" target="java.util.Observable">
+      <point x="78.75" y="-192.0" />
+      <point x="0.0" y="148.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.VeiculosController" target="java.util.Observer">
+      <point x="-78.75" y="-192.0" />
+      <point x="800.75" y="321.0" />
+      <point x="594.3333333333333" y="321.0" />
+      <point x="79.33333333333326" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.CadastroVeiculoController" target="java.util.Observer">
+      <point x="0.0" y="-324.0" />
+      <point x="154.0" y="321.0" />
+      <point x="435.6666666666667" y="321.0" />
+      <point x="-79.33333333333331" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="301.0" y="415.0" />
+  <SelectedNodes>
+    <node>br.com.ufmg.coltec.locamais.ui.controller.CadastroVeiculoController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.model.FuncionarioAutenticavel</OriginalElement>
+  <nodes>
+    <node x="29.5" y="0.0">java.util.Observer</node>
+    <node x="0.0" y="753.0">br.com.ufmg.coltec.locamais.filemanager.FuncionariosFileManager</node>
+    <node x="18.5" y="531.0">br.com.ufmg.coltec.locamais.model.Autentica</node>
+    <node x="342.0" y="0.0">br.com.ufmg.coltec.locamais.filemanager.SystemFolderAndFilesURL</node>
+    <node x="0.0" y="102.0">br.com.ufmg.coltec.locamais.ui.controller.AutenticacaoController</node>
+    <node x="0.0" y="633.0">br.com.ufmg.coltec.locamais.model.FuncionarioAutenticavel</node>
+    <node x="283.0" y="531.0">br.com.ufmg.coltec.locamais.help.BuildFuncionarioAutenticavel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.model.FuncionarioAutenticavel" target="br.com.ufmg.coltec.locamais.model.Autentica">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.AutenticacaoController" target="java.util.Observer">
+      <point x="0.0" y="-192.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1182674199623353" x="473.8405186931626" y="517.3931505882998" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

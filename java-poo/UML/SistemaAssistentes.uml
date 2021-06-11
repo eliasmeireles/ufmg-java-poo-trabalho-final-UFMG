@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.color.Colors</OriginalElement>
+  <nodes>
+    <node x="34.0" y="323.0">br.com.ufmg.coltec.locamais.encryptor.PasswordEncryptor</node>
+    <node x="0.0" y="680.0">br.com.ufmg.coltec.locamais.ui.helper.UiHelper</node>
+    <node x="258.0" y="821.0">br.com.ufmg.coltec.locamais.ui.helper.VeiculoSituacao</node>
+    <node x="447.5" y="0.0">br.com.ufmg.coltec.locamais.ui.inputvalidation.Regex</node>
+    <node x="676.0" y="686.0">br.com.ufmg.coltec.locamais.image.ImageWrite</node>
+    <node x="480.0" y="821.0">br.com.ufmg.coltec.locamais.image.ImageScale</node>
+    <node x="680.0" y="532.0">br.com.ufmg.coltec.locamais.converter.Converter</node>
+    <node x="370.0" y="322.0">br.com.ufmg.coltec.locamais.ui.inputvalidation.TextFieldValidation</node>
+    <node x="65.5" y="532.0">br.com.ufmg.coltec.locamais.ui.inputlimit.JTextFieldLimit</node>
+    <node x="541.0" y="956.0">br.com.ufmg.coltec.locamais.image.ImageVerity</node>
+    <node x="0.0" y="0.0">br.com.ufmg.coltec.locamais.encryptor.Constants</node>
+    <node x="457.0" y="532.0">br.com.ufmg.coltec.locamais.color.Colors</node>
+    <node x="295.0" y="962.0">br.com.ufmg.coltec.locamais.ui.helper.SelectorImage</node>
+    <node x="0.0" y="821.0">br.com.ufmg.coltec.locamais.filemanager.FileWrite</node>
+    <node x="0.0" y="962.0">br.com.ufmg.coltec.locamais.ui.message.ShowMessage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.inputvalidation.TextFieldValidation" target="br.com.ufmg.coltec.locamais.ui.inputvalidation.Regex">
+      <point x="0.0" y="-81.0" />
+      <point x="0.0" y="136.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.helper.UiHelper" target="br.com.ufmg.coltec.locamais.ui.inputlimit.JTextFieldLimit">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.encryptor.PasswordEncryptor" target="br.com.ufmg.coltec.locamais.encryptor.Constants">
+      <point x="0.0" y="-82.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="260.5" y="414.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

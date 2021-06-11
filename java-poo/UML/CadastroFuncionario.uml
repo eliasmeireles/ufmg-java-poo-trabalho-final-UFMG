@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.controller.CadastroFuncionarioController</OriginalElement>
+  <nodes>
+    <node x="327.0" y="0.0">java.util.Observer</node>
+    <node x="259.0" y="102.0">br.com.ufmg.coltec.locamais.ui.controller.CadastroFuncionarioController</node>
+    <node x="755.0" y="715.0">br.com.ufmg.coltec.locamais.filemanager.FuncionariosFileManager</node>
+    <node x="0.0" y="715.0">br.com.ufmg.coltec.locamais.ui.inputvalidation.Regex</node>
+    <node x="678.0" y="0.0">br.com.ufmg.coltec.locamais.ui.view.CadastroFuncionario</node>
+    <node x="300.0" y="715.0">br.com.ufmg.coltec.locamais.ui.inputvalidation.TextFieldValidation</node>
+    <node x="0.0" y="0.0">br.com.ufmg.coltec.locamais.model.Funcionario</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.CadastroFuncionarioController" target="java.util.Observer">
+      <point x="0.0" y="-269.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0198288159771753" x="548.0" y="986.0518953699818" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

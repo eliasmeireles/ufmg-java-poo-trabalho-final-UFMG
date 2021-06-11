@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.filemanager.SystemFolderAndFiles</OriginalElement>
+  <nodes>
+    <node x="318.0" y="719.0">br.com.ufmg.coltec.locamais.filemanager.LocacaoFileManager</node>
+    <node x="398.25" y="0.0">br.com.ufmg.coltec.locamais.model.Locacao</node>
+    <node x="299.5" y="1019.0">br.com.ufmg.coltec.locamais.ui.controller.EfetuaLocacaoController</node>
+    <node x="0.0" y="543.0">br.com.ufmg.coltec.locamais.ui.view.EfetuaLocacao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.EfetuaLocacaoController" target="br.com.ufmg.coltec.locamais.model.Locacao">
+      <point x="142.5" y="-280.0" />
+      <point x="613.0" y="999.0" />
+      <point x="608.5" y="999.0" />
+      <point x="608.5" y="523.0" />
+      <point x="687.0" y="523.0" />
+      <point x="123.75" y="246.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.EfetuaLocacaoController" target="br.com.ufmg.coltec.locamais.filemanager.LocacaoFileManager">
+      <point x="-28.5" y="-280.0" />
+      <point x="442.0" y="999.0" />
+      <point x="447.0" y="999.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.EfetuaLocacaoController" target="br.com.ufmg.coltec.locamais.ui.view.EfetuaLocacao">
+      <point x="-85.5" y="-280.0" />
+      <point x="385.0" y="989.0" />
+      <point x="223.5" y="989.0" />
+      <point x="74.5" y="213.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.LocacaoFileManager" target="br.com.ufmg.coltec.locamais.model.Locacao">
+      <point x="0.0" y="-37.0" />
+      <point x="447.0" y="523.0" />
+      <point x="439.5" y="523.0" />
+      <point x="-123.75" y="246.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1278680452978829" x="614.0" y="1214.240101279085" />
+  <SelectedNodes>
+    <node>br.com.ufmg.coltec.locamais.ui.controller.EfetuaLocacaoController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

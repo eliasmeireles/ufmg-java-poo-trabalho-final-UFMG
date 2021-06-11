@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</OriginalElement>
+  <nodes>
+    <node x="572.6893939393941" y="1300.0">br.com.ufmg.coltec.locamais.ui.controller.ClienteCadastroController</node>
+    <node x="233.52272727272742" y="344.0">br.com.ufmg.coltec.locamais.ui.controller.EfetuaLocacaoController</node>
+    <node x="381.7083333333334" y="954.0">br.com.ufmg.coltec.locamais.ui.controller.ClientesController</node>
+    <node x="508.80681818181824" y="0.0">br.com.ufmg.coltec.locamais.ui.constant.SystemRoute</node>
+    <node x="627.7689393939395" y="587.0">br.com.ufmg.coltec.locamais.filemanager.ClienteFileManager</node>
+    <node x="0.0" y="32.0">br.com.ufmg.coltec.locamais.ui.template.controller.ClienteFuncionarioTemplateController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClienteCadastroController" target="br.com.ufmg.coltec.locamais.filemanager.ClienteFileManager">
+      <point x="0.0" y="-225.0" />
+      <point x="759.6893939393941" y="1275.0" />
+      <point x="805.5189393939395" y="1275.0" />
+      <point x="59.25" y="37.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClienteCadastroController" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="124.66666666666663" y="-225.0" />
+      <point x="884.3560606060607" y="1275.0" />
+      <point x="875.2689393939395" y="1275.0" />
+      <point x="875.2689393939395" y="319.0" />
+      <point x="779.6401515151515" y="319.0" />
+      <point x="108.33333333333331" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClienteCadastroController" target="br.com.ufmg.coltec.locamais.ui.controller.ClientesController">
+      <point x="-124.66666666666669" y="-225.0" />
+      <point x="635.0227272727275" y="1275.0" />
+      <point x="513.7083333333335" y="1275.0" />
+      <point x="0.0" y="148.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.EfetuaLocacaoController" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="85.49999999999994" y="-280.0" />
+      <point x="490.02272727272737" y="319.0" />
+      <point x="562.9734848484849" y="319.0" />
+      <point x="-108.33333333333333" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClientesController" target="br.com.ufmg.coltec.locamais.ui.controller.EfetuaLocacaoController">
+      <point x="-33.0" y="-148.0" />
+      <point x="480.7083333333334" y="924.0" />
+      <point x="404.5227272727274" y="924.0" />
+      <point x="0.0" y="280.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClientesController" target="br.com.ufmg.coltec.locamais.ui.template.controller.ClienteFuncionarioTemplateController">
+      <point x="-99.0" y="-148.0" />
+      <point x="414.7083333333334" y="934.0" />
+      <point x="208.5795454545456" y="934.0" />
+      <point x="208.5795454545456" y="319.0" />
+      <point x="110.25" y="319.0" />
+      <point x="-110.25" y="115.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClientesController" target="br.com.ufmg.coltec.locamais.filemanager.ClienteFileManager">
+      <point x="99.0" y="-148.0" />
+      <point x="612.7083333333335" y="934.0" />
+      <point x="687.0189393939395" y="934.0" />
+      <point x="-59.25" y="37.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClientesController" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="33.0" y="-148.0" />
+      <point x="546.7083333333335" y="924.0" />
+      <point x="617.2689393939395" y="924.0" />
+      <point x="617.2689393939395" y="319.0" />
+      <point x="671.3068181818182" y="319.0" />
+      <point x="0.0" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.EfetuaLocacaoController" target="br.com.ufmg.coltec.locamais.ui.template.controller.ClienteFuncionarioTemplateController">
+      <point x="-85.50000000000006" y="-280.0" />
+      <point x="319.02272727272737" y="319.0" />
+      <point x="330.75" y="319.0" />
+      <point x="110.25" y="115.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.199585921325052" x="346.37834246212395" y="1110.2083189506386" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ApplicationMain</OriginalElement>
+  <nodes>
+    <node x="422.83333333333326" y="476.0">br.com.ufmg.coltec.locamais.ui.constant.Constant</node>
+    <node x="653.8333333333333" y="487.0">java.util.Observer</node>
+    <node x="386.83333333333326" y="1696.0">br.com.ufmg.coltec.locamais.ApplicationMain</node>
+    <node x="50.83333333333326" y="754.0">br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</node>
+    <node x="912.8333333333333" y="788.0">br.com.ufmg.coltec.locamais.ui.view.UIMain</node>
+    <node x="321.83333333333326" y="710.0">br.com.ufmg.coltec.locamais.ui.controller.AutenticacaoController</node>
+    <node x="316.33333333333326" y="1174.0">br.com.ufmg.coltec.locamais.ui.controller.UIMainController</node>
+    <node x="0.0" y="366.0">br.com.ufmg.coltec.locamais.ui.constant.SystemRoute</node>
+    <node x="615.0565476190476" y="0.0">java.util.Observable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.Observer" target="java.util.Observable">
+      <point x="-79.33333333333331" y="-26.0" />
+      <point x="693.5" y="346.0" />
+      <point x="709.639880952381" y="346.0" />
+      <point x="-18.91666666666667" y="148.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.UIMainController" target="br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder">
+      <point x="-112.0" y="-236.0" />
+      <point x="358.33333333333326" y="1144.0" />
+      <point x="92.66666666666663" y="1144.0" />
+      <point x="-83.66666666666663" y="148.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder" target="br.com.ufmg.coltec.locamais.ui.controller.UIMainController">
+      <point x="0.0" y="148.0" />
+      <point x="176.33333333333326" y="1134.0" />
+      <point x="386.33333333333326" y="1134.0" />
+      <point x="-84.0" y="-236.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.AutenticacaoController" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="-111.375" y="-192.0" />
+      <point x="358.95833333333326" y="685.0" />
+      <point x="270.83333333333326" y="685.0" />
+      <point x="108.33333333333326" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.AutenticacaoController" target="java.util.Observable">
+      <point x="-37.125" y="-192.0" />
+      <point x="433.20833333333326" y="685.0" />
+      <point x="412.33333333333326" y="685.0" />
+      <point x="412.33333333333326" y="346.0" />
+      <point x="671.8065476190476" y="346.0" />
+      <point x="-56.75" y="148.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.UIMainController" target="java.util.Observable">
+      <point x="84.0" y="-236.0" />
+      <point x="554.3333333333333" y="1134.0" />
+      <point x="902.3333333333333" y="1134.0" />
+      <point x="902.3333333333333" y="336.0" />
+      <point x="823.139880952381" y="336.0" />
+      <point x="94.58333333333334" y="148.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.UIMainController" target="br.com.ufmg.coltec.locamais.ui.view.UIMain">
+      <point x="112.0" y="-236.0" />
+      <point x="582.3333333333333" y="1144.0" />
+      <point x="969.0833333333333" y="1144.0" />
+      <point x="-56.25" y="114.0" />
+    </edge>
+    <edge source="java.util.Observable" target="java.util.Observable">
+      <point x="-94.58333333333334" y="148.0" />
+      <point x="633.9732142857142" y="316.0" />
+      <point x="595.0565476190476" y="316.0" />
+      <point x="595.0565476190476" y="148.0" />
+      <point x="-113.5" y="-0.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.AutenticacaoController" target="br.com.ufmg.coltec.locamais.ui.constant.Constant">
+      <point x="37.125" y="-192.0" />
+      <point x="507.45833333333326" y="685.0" />
+      <point x="528.3333333333333" y="685.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="java.util.Observable" target="java.util.Observer">
+      <point x="56.75" y="148.0" />
+      <point x="785.3065476190476" y="346.0" />
+      <point x="852.1666666666665" y="346.0" />
+      <point x="79.33333333333331" y="-26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="0.0" y="-148.0" />
+      <point x="176.33333333333326" y="685.0" />
+      <point x="162.5" y="685.0" />
+      <point x="0.0" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.AutenticacaoController" target="br.com.ufmg.coltec.locamais.ui.controller.UIMainController">
+      <point x="99.0" y="192.0" />
+      <point x="569.3333333333333" y="1114.0" />
+      <point x="498.33333333333326" y="1114.0" />
+      <point x="28.0" y="-236.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.UIMainController" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="-140.0" y="-236.0" />
+      <point x="330.33333333333326" y="1154.0" />
+      <point x="40.33333333333326" y="1154.0" />
+      <point x="40.33333333333326" y="685.0" />
+      <point x="54.16666666666663" y="685.0" />
+      <point x="-108.33333333333337" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ApplicationMain" target="br.com.ufmg.coltec.locamais.ui.controller.UIMainController">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="236.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.UIMainController" target="br.com.ufmg.coltec.locamais.ui.controller.AutenticacaoController">
+      <point x="-28.0" y="-236.0" />
+      <point x="442.33333333333326" y="1114.0" />
+      <point x="371.33333333333326" y="1114.0" />
+      <point x="-99.0" y="192.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.UIMainController" target="java.util.Observer">
+      <point x="56.0" y="-236.0" />
+      <point x="526.3333333333333" y="1124.0" />
+      <point x="832.3333333333333" y="1124.0" />
+      <point x="59.5" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.AutenticacaoController" target="java.util.Observer">
+      <point x="111.375" y="-192.0" />
+      <point x="581.7083333333333" y="685.0" />
+      <point x="713.3333333333333" y="685.0" />
+      <point x="-59.5" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4" x="-291.7480065805612" y="743.4101019008431" />
+  <SelectedNodes>
+    <node>br.com.ufmg.coltec.locamais.ui.controller.UIMainController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

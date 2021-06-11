@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.view.Locacoes</OriginalElement>
+  <nodes>
+    <node x="632.5" y="673.0">br.com.ufmg.coltec.locamais.filemanager.LocacaoFileManager</node>
+    <node x="910.5" y="684.0">java.util.Observer</node>
+    <node x="414.3442118226601" y="0.0">br.com.ufmg.coltec.locamais.model.Locacao</node>
+    <node x="415.56116174641437" y="904.2136743427757">br.com.ufmg.coltec.locamais.ui.controller.LocacoesController</node>
+    <node x="21.5" y="563.0">br.com.ufmg.coltec.locamais.ui.constant.SystemRoute</node>
+    <node x="378.5" y="596.0">br.com.ufmg.coltec.locamais.ui.view.Locacoes</node>
+    <node x="114.5" y="1761.0">br.com.ufmg.coltec.locamais.ui.template.controller.LocacaoTemplateController</node>
+    <node x="847.1385467980294" y="1317.0">br.com.ufmg.coltec.locamais.ui.controller.FinalizarLocacaoController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.FinalizarLocacaoController" target="br.com.ufmg.coltec.locamais.ui.template.controller.LocacaoTemplateController">
+      <point x="89.75000000000006" y="192.0" />
+      <point x="1116.3885467980294" y="1741.0" />
+      <point x="590.8571428571429" y="1741.0" />
+      <point x="219.8571428571429" y="-203.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.LocacoesController" target="br.com.ufmg.coltec.locamais.ui.view.Locacoes">
+      <point x="51.857142857142776" y="-170.0" />
+      <point x="516.1034482758619" y="887.0" />
+      <point x="554.0" y="887.0" />
+      <point x="58.5" y="114.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.template.controller.LocacaoTemplateController" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="-73.28571428571428" y="-203.0" />
+      <point x="297.7142857142857" y="1721.0" />
+      <point x="119.0082101806239" y="1721.0" />
+      <point x="119.0082101806239" y="887.0" />
+      <point x="75.66666666666669" y="887.0" />
+      <point x="-108.33333333333331" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.LocacoesController" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="-155.57142857142856" y="-170.0" />
+      <point x="308.6748768472906" y="887.0" />
+      <point x="292.3333333333333" y="887.0" />
+      <point x="108.33333333333331" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.LocacoesController" target="br.com.ufmg.coltec.locamais.filemanager.LocacaoFileManager">
+      <point x="103.71428571428567" y="-170.0" />
+      <point x="567.9605911330048" y="877.0" />
+      <point x="697.0" y="877.0" />
+      <point x="-64.5" y="37.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.LocacoesController" target="br.com.ufmg.coltec.locamais.ui.template.controller.LocacaoTemplateController">
+      <point x="0.0" y="170.0" />
+      <point x="464.24630541871915" y="1297.0" />
+      <point x="382.0" y="1297.0" />
+      <point x="382.0" y="1741.0" />
+      <point x="444.28571428571433" y="1741.0" />
+      <point x="73.28571428571433" y="-203.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.template.controller.LocacaoTemplateController" target="br.com.ufmg.coltec.locamais.ui.controller.FinalizarLocacaoController">
+      <point x="146.5714285714286" y="-203.0" />
+      <point x="517.5714285714287" y="1731.0" />
+      <point x="936.8885467980294" y="1731.0" />
+      <point x="-89.75" y="192.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.LocacoesController" target="java.util.Observer">
+      <point x="155.57142857142856" y="-170.0" />
+      <point x="619.8177339901476" y="887.0" />
+      <point x="970.0" y="887.0" />
+      <point x="-59.5" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.FinalizarLocacaoController" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="-153.8571428571429" y="-192.0" />
+      <point x="872.7814039408865" y="1287.0" />
+      <point x="152.56711822660088" y="1287.0" />
+      <point x="152.56711822660088" y="887.0" />
+      <point x="184.0" y="887.0" />
+      <point x="0.0" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.FinalizarLocacaoController" target="br.com.ufmg.coltec.locamais.filemanager.LocacaoFileManager">
+      <point x="-51.285714285714334" y="-192.0" />
+      <point x="975.3528325123152" y="1267.0" />
+      <point x="826.0" y="1267.0" />
+      <point x="64.5" y="37.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.FinalizarLocacaoController" target="br.com.ufmg.coltec.locamais.ui.controller.LocacoesController">
+      <point x="-102.57142857142867" y="-192.0" />
+      <point x="924.0671182266008" y="1277.0" />
+      <point x="585.2463054187192" y="1277.0" />
+      <point x="121.0" y="170.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.FinalizarLocacaoController" target="br.com.ufmg.coltec.locamais.model.Locacao">
+      <point x="153.85714285714295" y="-192.0" />
+      <point x="1181.0" y="513.0" />
+      <point x="723.7192118226601" y="513.0" />
+      <point x="144.375" y="246.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.LocacoesController" target="br.com.ufmg.coltec.locamais.model.Locacao">
+      <point x="-103.71428571428567" y="-170.0" />
+      <point x="360.5320197044335" y="887.0" />
+      <point x="357.0" y="887.0" />
+      <point x="357.0" y="533.0" />
+      <point x="517.4692118226601" y="533.0" />
+      <point x="-61.875" y="246.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.FinalizarLocacaoController" target="java.util.Observer">
+      <point x="0.0" y="-192.0" />
+      <point x="1026.6385467980294" y="1277.0" />
+      <point x="1089.0" y="1277.0" />
+      <point x="59.500000000000114" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.template.controller.LocacaoTemplateController" target="br.com.ufmg.coltec.locamais.model.Locacao">
+      <point x="-146.57142857142856" y="-203.0" />
+      <point x="224.42857142857144" y="1731.0" />
+      <point x="11.0" y="1731.0" />
+      <point x="11.0" y="523.0" />
+      <point x="476.2192118226601" y="523.0" />
+      <point x="-103.125" y="246.5" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.filemanager.LocacaoFileManager" target="br.com.ufmg.coltec.locamais.model.Locacao">
+      <point x="0.0" y="-37.0" />
+      <point x="761.5" y="543.0" />
+      <point x="599.9692118226601" y="543.0" />
+      <point x="20.625" y="246.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0766867800329125" x="590.0" y="896.5528326879969" />
+  <SelectedNodes>
+    <node>br.com.ufmg.coltec.locamais.ui.controller.LocacoesController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

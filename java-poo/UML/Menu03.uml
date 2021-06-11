@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.controller.CadastroFuncionarioController</OriginalElement>
+  <nodes>
+    <node x="0.0" y="385.0">br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</node>
+    <node x="0.0" y="0.0">br.com.ufmg.coltec.locamais.ui.controller.LocacoesController</node>
+    <node x="408.0" y="0.0">br.com.ufmg.coltec.locamais.ui.controller.HistoricoLocacoesController</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.2612487611496532" x="418.0" y="324.0" />
+  <SelectedNodes>
+    <node>br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

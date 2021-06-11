@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</OriginalElement>
+  <nodes>
+    <node x="56.0" y="390.0">br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</node>
+    <node x="0.0" y="0.0">br.com.ufmg.coltec.locamais.ui.controller.LocacoesController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder" target="br.com.ufmg.coltec.locamais.ui.controller.LocacoesController">
+      <point x="0.0" y="-148.0" />
+      <point x="0.0" y="170.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="190.0" y="344.08333333333326" />
+  <SelectedNodes>
+    <node>br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

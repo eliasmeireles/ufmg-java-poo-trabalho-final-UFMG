@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.controller.FinalizarLocacaoController</OriginalElement>
+  <nodes>
+    <node x="435.5" y="0.0">java.util.Observer</node>
+    <node x="0.0" y="811.0">br.com.ufmg.coltec.locamais.filemanager.LocacaoFileManager</node>
+    <node x="0.0" y="0.0">br.com.ufmg.coltec.locamais.model.Locacao</node>
+    <node x="340.0" y="538.0">br.com.ufmg.coltec.locamais.filemanager.HistoricoLocacaoFileManager</node>
+    <node x="0.0" y="538.0">br.com.ufmg.coltec.locamais.ui.view.FinalizarLocacao</node>
+    <node x="375.0" y="102.0">br.com.ufmg.coltec.locamais.ui.controller.FinalizarLocacaoController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.FinalizarLocacaoController" target="java.util.Observer">
+      <point x="0.0" y="-192.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9602209944751381" x="536.5" y="606.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

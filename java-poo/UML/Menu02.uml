@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.ufmg.coltec.locamais.ui.controller.ClientesController</OriginalElement>
+  <nodes>
+    <node x="360.99999999999994" y="121.0">java.util.Observer</node>
+    <node x="102.65476190476181" y="344.0">br.com.ufmg.coltec.locamais.ui.controller.CadastroFuncionarioController</node>
+    <node x="479.99999999999994" y="932.0">br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder</node>
+    <node x="499.1547619047618" y="465.0">br.com.ufmg.coltec.locamais.ui.controller.ClientesController</node>
+    <node x="619.0" y="0.0">br.com.ufmg.coltec.locamais.ui.constant.SystemRoute</node>
+    <node x="0.0" y="32.0">br.com.ufmg.coltec.locamais.ui.template.controller.EnderecoTemplateController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.CadastroFuncionarioController" target="java.util.Observer">
+      <point x="46.75" y="-269.0" />
+      <point x="336.4047619047618" y="324.0" />
+      <point x="420.49999999999994" y="324.0" />
+      <point x="-59.5" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder" target="br.com.ufmg.coltec.locamais.ui.controller.ClientesController">
+      <point x="0.0" y="-148.0" />
+      <point x="605.5" y="907.0" />
+      <point x="631.1547619047618" y="907.0" />
+      <point x="0.0" y="148.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.CadastroFuncionarioController" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="140.25" y="-269.0" />
+      <point x="429.9047619047618" y="324.0" />
+      <point x="673.1666666666666" y="324.0" />
+      <point x="-108.33333333333333" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="83.66666666666669" y="-148.0" />
+      <point x="689.1666666666666" y="907.0" />
+      <point x="845.1845238095236" y="907.0" />
+      <point x="845.1845238095236" y="324.0" />
+      <point x="889.8333333333333" y="324.0" />
+      <point x="108.33333333333331" y="147.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClientesController" target="java.util.Observer">
+      <point x="-66.0" y="-148.0" />
+      <point x="565.1547619047618" y="314.0" />
+      <point x="539.5" y="314.0" />
+      <point x="59.5" y="26.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.builder.MenuBuilder" target="br.com.ufmg.coltec.locamais.ui.controller.CadastroFuncionarioController">
+      <point x="-83.66666666666669" y="-148.0" />
+      <point x="521.8333333333333" y="907.0" />
+      <point x="289.6547619047618" y="907.0" />
+      <point x="0.0" y="269.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.CadastroFuncionarioController" target="br.com.ufmg.coltec.locamais.ui.template.controller.EnderecoTemplateController">
+      <point x="-140.25" y="-269.0" />
+      <point x="149.4047619047618" y="324.0" />
+      <point x="73.25" y="324.0" />
+      <point x="-73.25" y="115.0" />
+    </edge>
+    <edge source="br.com.ufmg.coltec.locamais.ui.controller.ClientesController" target="br.com.ufmg.coltec.locamais.ui.constant.SystemRoute">
+      <point x="66.0" y="-148.0" />
+      <point x="697.1547619047618" y="324.0" />
+      <point x="781.5" y="324.0" />
+      <point x="0.0" y="147.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="187.0" y="159.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
